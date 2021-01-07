@@ -26,13 +26,16 @@
 <div class="TagSuggestion-container"></div>
 <div class="TagSuggestion-container"><img src="https://i.imgur.com/7G0nfKg.jpg"/></div>
 <div class="TagSuggestion-container"></div>
+<div class="TagSuggestion-container">4.找到localhost:9443</div>
+<div class="TagSuggestion-container">網址打開個人倉儲網頁 即可開始建立個人作業</div>
+<div class="TagSuggestion-container"></div>
+<div class="TagSuggestion-container">5.剩餘推送部分參考"推送常見問題"</div>
 <div class="TagSuggestion-container"></div>
 <div class="TagSuggestion-container"></div>
 </div>
 </div>
 </div>
-</div>
-<h3>H-1(尺寸列表)</h3>
+</div><h3>H-1(尺寸列表)</h3>
 <table border="1" cellpadding="1" cellspacing="1" width="98%">
 <tbody>
 <tr>
@@ -470,13 +473,61 @@
 <p><img alt="" height="191" src="/images/OO2.jpg" width="305"/></p>
 <p>把inch改成Millimeter即可</p>
 <p><img alt="" height="344" src="/images/OO3.jpg" width="331"/></p>
-<h3>H-6</h3>
 <h2>1030(W7)~1113(W9)</h2>
-<p>1225補充</p><h2>1120(W10)~1204(W12)</h2><h2>1211(W13)~1225(W15)</h2>
+<p>演示連桿行走機器當作示範</p>
+<p>介紹零件</p><h2>1120(W10)~1204(W12)</h2>
+<p>主要重點:</p>
+<h4>從近端個人維護倉儲進入非同步協同維護倉儲的三種不同方式:</h4>
+<ol>
+<li>進入個人倉儲 cmsimde 執行 python wsgi.py (只有 localhost 可以連線)</li>
+<li>以區網取得的 IPv6 或 IPv4 網路位址啟動 cmsimde 中的 wsgi.py (區域網路中電腦都可連線)</li>
+<li>在廣域網路上透過 Python uwsgi 服務在 Ubuntu 中啟動 cmsimde 中的 wsgi.py (任何網際網路上的電腦都可以連線）</li>
+</ol>
+<p></p>
+<p>主要參考資料:</p>
+<p><img alt="" height="93" src="/images/A下載.png" width="541"/></p>
+<p>行政院衛生署疾病管制局</p>
+<p>建立符合 HIPAA 標準規範之全國預防接種資料庫 (倉儲)</p>
+<p>與管理決策輔助先導性系統之研究</p>
+<p></p>
+<p>https://www.cdc.gov.tw/uploads/files/bfc89ddf-6489-4c56-a879-7968d00bf33f.pdf</p><h2>1211(W13)~1225(W15)</h2>
 <p>聖誕節</p>
-<p>待辦事項-</p>
 <p>分組作業繼續推進</p>
-<p>將網頁整理得能見人</p><h2>0101(W16)~0108(W17)</h2><h2>0115(W18)</h2>
+<p>啟動下學期的電腦輔助設計專案以及協同產品設計實習預熱</p>
+<p></p>
+<p>專案主題與製作要點:</p>
+<p></p>
+<p>電腦輔助設計專案</p>
+<p>動機</p>
+<p>目的</p>
+<p>文獻捜尋與探討</p>
+<p>執行步驟</p>
+<p>階段心得</p>
+<p>專案結果與貢獻</p>
+<p>討論與建議</p>
+<p></p>
+<p></p>
+<p>同步協同編輯</p>
+<p>動機與目的</p>
+<p>如何進行</p>
+<p>結果比較與討論</p>
+<p>動態網頁</p>
+<p>靜態網頁</p>
+<p>新增提交並推送</p>
+<p>同步</p>
+<p>零組件設計繪圖</p>
+<p>機電資整合專案</p>
+<p>運動與動態模擬分析</p>
+<p>零組件轉檔</p>
+<p></p>
+<p></p>
+<p></p>
+<p>Python 程式調整或控制</p>
+<p>動機與目的</p>
+<p>如何進行</p>
+<p>實習要點</p>
+<p></p><h2>0101(W16)~0108(W17)</h2>
+<p>組員評分 最後統整</p><h2>0115(W18)</h2>
 <p></p><h1>解救英文</h1>
 <div class="UploadPost">
 <div class="UploadPost-files">
@@ -515,7 +566,7 @@
 </ol>
 <p>根據上述課程評分標準, 由組員之自評成績決定課程期中成績, 視為本課程之學員期望成績, 期中考後, 則依據各週之組員自評成績, 組員互評成績與教師評分成績, 按照下列流程計算學員之學期成績.</p>
 <p></p>
-<h1>Develop發展(重要)</h1>
+<h1>CMSIMDE(重要)</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
